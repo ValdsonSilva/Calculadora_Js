@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255,4,203,1) 17%, rgba(70,13,87,1) 77%);
+}
+
+.main {
+    display: grid;
+    place-content: center;
+    background-color: rgb(167, 16, 173);
+    width: 350px;
+    height: 650px;
+    padding-inline: 30px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px 0px rgb(255, 0, 217);
+    background-color: black;
+}
+
+.num, .b1, .takeoff, .add, .div, .equal, .prod {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-inline: 5px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background: linear-gradient(180deg, rgba(56,56,56,1) 2%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 76%, rgba(56,56,56,1) 100%);
+    box-shadow: 0px 0px 0px 2px rgb(254, 5, 225);
+    color: #fff;
+}
+
+.num:hover {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.num:active {
+    font-size: 35px;
+}
+
+.b1:hover {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.b1:active {
+    font-size: 35px;
+}
+
+.takeoff:hover {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.takeoff:active {
+    font-size: 35px;
+}
+
+.add:hover {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.add:active {
+    font-size: 35px;
+}
+
+.div:hover {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.div:active {
+    font-size: 35px;
+}
+
+.equal:hover {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.equal:active {
+    font-size: 35px;
+}
+
+.prod:hover {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.prod:active {
+    font-size: 35px;
+}
+
+
+.b1 , .box {
+    margin-inline: 15px;
+}
+
+
+.box {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+    font-size: 25px;
+    text-align: end;
+    border: none;
+}
